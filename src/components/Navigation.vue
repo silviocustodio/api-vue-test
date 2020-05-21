@@ -76,6 +76,19 @@
                 </div>
               </router-link>
             </li>
+            <li>
+              <router-link to="/graph_top_rated">
+                <div class="nav__link-wrap">
+                  <b-icon
+                    icon="graph-up"
+                    font-scale="2"
+                    v-b-tooltip.hover
+                    title="Graphics"
+                  >
+                  </b-icon>
+                </div>
+              </router-link>
+            </li>
           </ul>
         </div>
       </b-sidebar>

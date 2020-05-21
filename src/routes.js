@@ -36,7 +36,13 @@ let routes = [
       next();
     }
   },
-
+  {
+    name: 'Graph',
+    path: '/graph_top_rated',
+    components: {
+      'page-router-view': require('./components/Graph.vue')
+    }
+  },
   {
     name: '404',
     path: '/404',
